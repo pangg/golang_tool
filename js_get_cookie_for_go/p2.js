@@ -126,6 +126,7 @@ page.onConsoleMessage = function(msg, lineNum, sourceId) {
                 times = 0;
                 clearInterval(timer5);
 
+                console.log('get_cookies_success')
                 cookies = JSON.stringify(page.cookies);
                 exit_program(cookies);
             }else{
